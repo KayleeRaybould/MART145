@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Independence</title>
-    <img src="images/kratom_warning.jpg" alt="Kratom warning label from a public health source" style="max-width:700px; display:block; margin:20px auto; border-radius:12px;">
-<p style="text-align:center; font-size:0.9rem; color:#555;">
-Public health warnings highlight the risks associated with kratom use.
-</p>
-     style="max-width:700px; display:block; margin:20px auto; border-radius:12px;">
-<p style="text-align:center; font-size:0.9rem; color:#555;">
-Image credit: FDA / DVIDS (Public Domain)
-</p>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Risks of Kratom</title>
 
-    <style>
-        <body>
-            <div class="headerWrapper">
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="extras.html">Extras</a></li>
-        </ul>
-    </div>
-</div>
+    <link rel="stylesheet" href="styles.css">
 
+    <style>
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.7;
             margin: 0;
             background-color: #f4f7f4;
             color: #243024;
+        }
+
+        /* Week 6 Navigation Bar */
+        .headerWrapper {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #ffcc00;
         }
 
         header {
@@ -82,6 +88,19 @@ Image credit: FDA / DVIDS (Public Domain)
 
 <body>
 
+    <!-- Week 6 Navigation Bar -->
+    <div class="headerWrapper">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </div>
+    </div>
+
     <header>
         <h1>The Health Risks of Kratom</h1>
 
@@ -93,6 +112,18 @@ Image credit: FDA / DVIDS (Public Domain)
             <a href="resources.html">Resources</a>
         </nav>
     </header>
+
+    <!-- Your infographic moved OUT of <head> and placed correctly -->
+    <img src="images/kratom_warning.jpg" 
+         alt="Kratom warning label from a public health source">
+
+    <p class="caption">
+        Public health warnings highlight the risks associated with kratom use.
+    </p>
+
+    <p class="caption">
+        Image credit: FDA / DVIDS (Public Domain)
+    </p>
 
     <main>
         <section>
