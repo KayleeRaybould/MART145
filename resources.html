@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Resources</title>
-    <img src="images/kratom_public_health.png" alt="Public health warning graphic about kratom" style="max-width:700px; display:block; margin:20px auto; border-radius:12px;">
-<p style="text-align:center; font-size:0.9rem; color:#555;">
-Public health resources provide guidance and support for individuals affected by kratom.
-</p>
-     style="max-width:700px; display:block; margin:20px auto; border-radius:12px;">
-<p style="text-align:center; font-size:0.9rem; color:#555;">
-Graphic credit: Public Health Communications Collaborative (Educational Use)
-</p>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kratom Resources</title>
 
-    <style>
-        <body>
-            <div class="headerWrapper">
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="extras.html">Extras</a></li>
-        </ul>
-    </div>
-</div>
+    <link rel="stylesheet" href="styles.css">
 
+    <style>
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.7;
             margin: 0;
             background-color: #f4f7f4;
             color: #243024;
+        }
+
+        /* Week 6 Navigation Bar */
+        .headerWrapper {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #ffcc00;
         }
 
         header {
@@ -82,6 +88,19 @@ Graphic credit: Public Health Communications Collaborative (Educational Use)
 
 <body>
 
+    <!-- Week 6 Navigation Bar -->
+    <div class="headerWrapper">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </div>
+    </div>
+
     <header>
         <h1>Kratom Resources</h1>
 
@@ -93,6 +112,18 @@ Graphic credit: Public Health Communications Collaborative (Educational Use)
             <a href="resources.html">Resources</a>
         </nav>
     </header>
+
+    <!-- Your infographic moved OUT of <head> and placed correctly -->
+    <img src="images/kratom_public_health.png" 
+         alt="Public health warning graphic about kratom">
+
+    <p class="caption">
+        Public health resources provide guidance and support for individuals affected by kratom.
+    </p>
+
+    <p class="caption">
+        Graphic credit: Public Health Communications Collaborative (Educational Use)
+    </p>
 
     <main>
         <section>
