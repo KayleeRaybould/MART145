@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kratom Resources</title>
 
-  <link rel="stylesheet" href="styles.css">
-
-
+    <!-- Correct CSS path -->
+    <link rel="stylesheet" href="styles.css">
 
     <style>
         body {
@@ -18,7 +17,6 @@
             color: #243024;
         }
 
-        /* Week 6 Navigation Bar */
         .headerWrapper {
             width: 100%;
             background-color: #333;
@@ -90,34 +88,25 @@
 
 <body>
 
-    <!-- Week 6 Navigation Bar -->
+    <!-- Navigation Bar -->
     <div class="headerWrapper">
         <div class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="extras.html">Extras</a></li>
+                <li><a href="risks.html">Health Risks</a></li>
+                <li><a href="effects.html">Effects</a></li>
+                <li><a href="dependence.html">Dependence & Withdrawal</a></li>
+                <li><a href="resources.html">Resources</a></li>
             </ul>
         </div>
     </div>
 
     <header>
         <h1>Kratom Resources</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="risks.html">Health Risks</a>
-            <a href="effects.html">Effects</a>
-            <a href="dependence.html">Dependence & Withdrawal</a>
-            <a href="resources.html">Resources</a>
-        </nav>
     </header>
 
-    <!-- Your infographic moved OUT of <head> and placed correctly -->
-    <img src="kratom warning.png" alt="Resources">
-         alt="Public health warning graphic about kratom">
+    <!-- FIXED IMAGE: your filename had a space, which breaks GitHub Pages -->
+    <img src="images/kratom-warning.png" alt="Public health warning graphic about kratom">
 
     <p class="caption">
         Public health resources provide guidance and support for individuals affected by kratom.
@@ -174,3 +163,4 @@
 
 </body>
 </html>
+
