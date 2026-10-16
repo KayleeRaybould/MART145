@@ -116,7 +116,8 @@
     </header>
 
     <!-- Your infographic moved OUT of <head> and placed correctly -->
-    <img src="images/kratom-addiction.png" alt="Kratom addiction">
+   <img src="images/kratom addiction.png" alt="Kratom addiction infographic">
+
          alt="Infographic explaining kratom addiction and dependence">
 
     <p class="caption">
