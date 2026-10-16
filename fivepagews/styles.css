@@ -34,7 +34,7 @@ p {
     margin: 15px 20px;
 }
 
-/* ===== Navigation Links ===== */
+/* ===== Main Navigation (Blue Bar on Index Page) ===== */
 nav {
     background-color: #2a5d84;
     padding: 10px;
@@ -50,6 +50,35 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/* ===== Week 6 Navigation Bar (Dark Header Bar) ===== */
+.headerWrapper {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
 }
 
 /* ===== Images ===== */
@@ -82,3 +111,4 @@ footer {
     background-color: #e3e9ef;
     color: #333;
 }
+
