@@ -115,7 +115,7 @@
     </header>
 
     <!-- Your infographic moved OUT of <head> and placed correctly -->
-    <img src="images/kratom_public_health.png" 
+    <img src="images/resources.png" alt="Resources">
          alt="Public health warning graphic about kratom">
 
     <p class="caption">
