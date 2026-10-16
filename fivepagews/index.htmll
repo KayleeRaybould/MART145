@@ -5,6 +5,7 @@
     <title>Kratom Information</title>
 
     <style>
+<link rel="stylesheet" href="styles.css">
         body {
             font-family: Arial, sans-serif;
             max-width: 900px;
@@ -99,7 +100,7 @@
         <a href="resources.html">Resources</a>
     </nav>
 
-    <img src="images/kratom_powder.webp" 
+<img src="images/leaf.png" alt="Leaf">
          alt="Close-up photo of kratom powder">
 
     <p class="caption">
