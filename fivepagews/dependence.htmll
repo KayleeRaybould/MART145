@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kratom Dependence and Withdrawal</title>
 
+    <!-- Correct CSS path -->
     <link rel="stylesheet" href="styles.css">
-
-
 
     <style>
         body {
@@ -18,7 +17,6 @@
             color: #243024;
         }
 
-        /* Week 6 Navigation Bar */
         .headerWrapper {
             width: 100%;
             background-color: #333;
@@ -77,76 +75,4 @@
 
         .caption {
             text-align: center;
-            font-size: 0.9rem;
-            color: #5d665d;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 10px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <!-- Week 6 Navigation Bar -->
-    <div class="headerWrapper">
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="extras.html">Extras</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <header>
-        <h1>Kratom Dependence and Withdrawal</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="risks.html">Health Risks</a>
-            <a href="effects.html">Effects</a>
-            <a href="dependence.html">Dependence & Withdrawal</a>
-            <a href="resources.html">Resources</a>
-        </nav>
-    </header>
-
-    <!-- Your infographic moved OUT of <head> and placed correctly -->
-   <img src="images/kratom addiction.png" alt="Kratom addiction infographic">
-
-         alt="Infographic explaining kratom addiction and dependence">
-
-    <p class="caption">
-        Kratom can lead to dependence and withdrawal symptoms.
-    </p>
-
-    <p class="caption">
-        Infographic credit: RehabSpot (Educational Use)
-    </p>
-
-    <main>
-        <section>
-            <h2>Dependence on Kratom</h2>
-
-            <p>
-                Regular use of Kratom can lead to dependence. This means that a person's body 
-                may become used to having kratom, making it difficult to stop using it.
-            </p>
-
-            <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Mitragyna_speciosa_plant.jpg"
-                alt="Kratom plant leaves, the source of kratom products"
-            >
-
-            <p class="caption">
-                Kratom plant leaves. Image: Wikimedia Commons, CC BY-SA.
-            </p>
-        </section>
-    </main>
-
-</body>
-</html>
+            font
