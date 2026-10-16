@@ -115,7 +115,7 @@
     </header>
 
     <!-- Your infographic moved OUT of <head> and placed correctly -->
-    <img src="images/kratom_side_effects.png" 
+    <img src="images/effects-chart.png" alt="Effects chart">
          alt="Infographic showing kratom side effects">
 
     <p class="caption">
